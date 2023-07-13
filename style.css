@@ -3,7 +3,7 @@
     width: 150px;
     padding: 10px;
     height: 175px;
-    max-height: 200px;
+    max-height: 175px;
     overflow: auto;
     background-color: white;
     box-shadow: 0 3px 3px #3333336f;
@@ -89,7 +89,7 @@ button {
 #modal_cart_content {
     padding: 10px;
     background-color: #333333b4;
-    height: 35vh;
+    height: 200px;
     display: flex;
     gap: 20px;
     overflow: auto;
