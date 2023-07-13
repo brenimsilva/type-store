@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+
+</head>
+<body>
+    <main>
+        <div id="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p id="item_count">0</p>
+            <button id="view_cart">Ver carrinho</button>
+        </div>
+        <div class="form" style="margin-bottom: 30px;">
+            <p>Adicionar novos produtos:</p>
+            <input type="text" id="nome" placeholder="nome"/>
+            <input type="number" id="valor" placeholder="valor" />
+            <button id="add_new_product">Adicionar</button>
+        </div>
+        <div id="shop_content">
+
+        </div>
+    </main>
+    <div id="modal">
+        <div id="modal_backdrop"></div>
+        <div id="modal_content">
+            <h1 id="modal_content_title">Conteudo do carrinho</h1>
+            <div id="modal_cart_content">
+
+            </div>
+            <p>Valor total: R$<span id="total_price">0,00</span></p>
+        </div>
+    </div>
+    <script src="./dist/index.js" type="module"></script>
+</body>
+</html>
